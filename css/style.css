@@ -6,39 +6,63 @@ body {
     margin-bottom: 100px;
 }
 .jumbotron {
-    background-color: rgb(210, 210, 210);
+    background-color: rgba(3, 3, 55, 0.546);
 }
 
-.jumbotron h2 {
-    font-size: 3rem;
-    font-weight: bold;
-    font-style: italic;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.jumbotron h1 {
+    font-family: calibri;
+    font-size: 50px;
+    color: #fff;
 }
+
+.jumbotron p {
+    font-family: calibri;
+    font-size: 20px;
+    color: #fff;
+}
+
 
 .jumbotron img {
     width: 200px;
-    border: 5px solid;
+    border: 5px solid rgb(242, 242, 242);
 }
+
+.about h2 {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
 .about hr {
-    width: 250px;
-    border-top: 3px solid rgb(210, 210, 210);
+    width: 100px;
+    border-top: 3px solid #000;
+    margin: 2px;
+    margin-bottom: 20px;
 }
 
 .about p {
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: calibri;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 .project {
-    margin-top: 80px;
-    padding: 10px;
-    background-color: #999;
+    padding: 30px;
+    background-color: rgba(3, 3, 55, 0.546);
 }
 
 .project hr {
-    width: 250px;
-    border-top: 3px solid #000;
+    width: 180px;
+    border-top: 3px solid rgb(255, 255, 255);
+    margin: 2px;
+    margin-bottom: 20px;
+}
+.project h2 {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
 }
 
 /* .project img {
@@ -50,6 +74,8 @@ body {
     display: flex;
     padding: 5px;
     margin: 10px;
+    padding-bottom: 20px;
+    width: fit-content;
 }
 
 .project a img:hover {
@@ -58,12 +84,19 @@ body {
 }
 
 .contact {
-    min-height: 800px;
+    min-height: 1000px;
+}
+.contact h2 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 80px;
 }
 
 .contact hr {
-    width: 250px;
+    width: 100px;
     border-top: 3px solid #000;
+    padding-top: 30px;
 }
 
 footer {
@@ -71,12 +104,13 @@ footer {
     width: 100%;
     bottom: 0;
     height: 100px;
-    background-color: #333;
+    background-color: rgba(3, 3, 55, 0.546);
     color: #fff;
     padding-top: 30px;
 }
 
 footer p {
+    color: rgb(255, 255, 255);
     font-size: 1rem;
     font-size: 1em;
 }
