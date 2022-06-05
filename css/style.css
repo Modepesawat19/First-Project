@@ -4,21 +4,31 @@ html {
 
 body {
     margin-bottom: 100px;
+
 }
+
+.brand-logo {
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+
 .jumbotron {
-    background-color: rgba(3, 3, 55, 0.546);
+    background-color: rgba(233, 233, 233, 0.948);
+    height: 200%;
+    
 }
 
 .jumbotron h1 {
-    font-family: calibri;
-    font-size: 50px;
-    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
 }
 
 .jumbotron p {
-    font-family: calibri;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -27,10 +37,16 @@ body {
     border: 5px solid rgb(242, 242, 242);
 }
 
+.about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .about h2 {
     font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-top: 20px;
 }
 
 .about hr {
@@ -42,27 +58,27 @@ body {
 
 .about p {
     font-size: 16px;
-    font-family: calibri;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
     margin-top: 40px;
     margin-bottom: 60px;
 }
 
 .project {
-    padding: 30px;
-    background-color: rgba(3, 3, 55, 0.546);
+    padding: 50px;
+    background-color:  rgba(233, 233, 233, 0.948);
 }
 
 .project hr {
     width: 180px;
-    border-top: 3px solid rgb(255, 255, 255);
-    margin: 2px;
-    margin-bottom: 20px;
+    border-top: 3px solid #000;
+    padding-top: 30px;
 }
 .project h2 {
     font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(12, 12, 12);
 }
 
 /* .project img {
@@ -73,7 +89,7 @@ body {
 .project a img {
     display: flex;
     padding: 5px;
-    margin: 10px;
+    margin: 5px;
     padding-bottom: 20px;
     width: fit-content;
 }
@@ -87,8 +103,8 @@ body {
     min-height: 1000px;
 }
 .contact h2 {
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     padding-top: 80px;
 }
@@ -104,13 +120,13 @@ footer {
     width: 100%;
     bottom: 0;
     height: 100px;
-    background-color: rgba(3, 3, 55, 0.546);
+    background-color: rgba(90, 130, 253, 0.948);
     color: #fff;
     padding-top: 30px;
 }
 
 footer p {
     color: rgb(255, 255, 255);
-    font-size: 1rem;
-    font-size: 1em;
+    font-size: 0.9rem;
+    font-size: 0.9em;
 }
